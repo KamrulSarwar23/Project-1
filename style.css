@@ -1,0 +1,816 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.social-media{
+    background: #131212;
+    padding:5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media .social-icons img{
+    padding:5px;
+    margin-left:10px;
+}
+
+.menu-bar{
+    background:rgb(190, 91, 73); 
+}
+
+.menu-bar .menu-item{
+    display:flex;
+    justify-content:center;
+    list-style-type: none;
+}
+
+.menu-bar .menu-item li{
+    padding:20px;
+    font-size:22px;
+}
+
+.menu-bar .menu-item li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.menu-bar .menu-item li:hover{
+    background: rgb(241, 237, 237);
+}
+
+
+.header{
+    height:600px;
+    background-image: url(images/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.header .logo h1{
+    font-family:Raleway-BlackItalic;
+    font-size:40px;
+    margin-left:30px;
+    padding:10px;
+    color:rgb(0, 0, 0);
+}
+
+.header .logo-details h4{
+    font-family: roboto;
+    margin-left:35px;
+}
+
+.header .details{
+    width:500px;
+    position:relative;
+    top:150px;
+    left:30px;
+    font-family:lato;
+}
+
+.hero-wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-pic img{
+    position:relative;
+}
+
+.details::first-letter{
+    font-size:40px;
+    color:red;
+}
+
+.button1{
+    width:140px;
+    height:50px;
+    padding:10px;
+    margin:auto;
+    left:500px;
+    position: relative;
+    font-size: 20px;
+    margin-bottom:20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20%;
+    border: 2px solid tomato;
+    transition: all 0.3s ease;
+}
+
+.button2{
+    width:140px;
+    height:50px;
+    padding:10px;
+    margin:auto;
+    left:500px;
+    position: relative;
+    font-size: 20px;
+    margin-bottom:20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20%;
+    border: 2px solid tomato;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: tomato;
+    border:2px solid black;
+}
+
+.social-media .social-icons img:hover{
+    background: tomato;
+}
+
+button li{
+    list-style-type: none;
+}
+
+button li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    
+}
+
+.our-food{
+    background: #F0F0F0;
+  
+}
+
+.headline:after{
+    content:"";
+    width:150px;
+    height:2px;
+    display: block;
+    background: rgb(230, 66, 66);
+    margin: 0 auto;
+}
+
+.headline{
+    margin-bottom: 30px;
+}
+
+.headline h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top:30px;
+}
+
+.show-food-1{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-bottom:30px;
+   text-align: center;
+}
+
+.show-food-1 img{
+    width:200px;
+    height:200px;
+    box-shadow:1px 1px 8px 3px rgb(149, 144, 144);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.show-food-1 img:hover{
+    transform: scale(1.1);
+}
+
+.show-food-1 h2{
+    margin-top:10px;
+}
+
+.show-food-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom:30px;
+    text-align: center;
+}
+
+.show-food-2 img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow:1px 1px 8px 2px rgb(78, 77, 77);
+    transition: all 0.3s ease;
+}
+
+.show-food-2 h2{
+    margin-top:10px;
+}
+
+.show-food-2 img:hover{
+    transform: scale(1.1);
+}
+
+.fresh-meal{
+    background: #F0F0F0;
+    padding:20px 0;
+}
+
+.fresh-meal-head h1{
+    text-align: center;
+    font-size:35px;
+    padding:10px;
+
+}
+
+.fresh-meal-head:after{
+    content:"";
+    width:260px;
+    height:2px;
+    display: block;
+    background: rgb(230, 66, 66);
+    margin: 0 auto;
+}
+
+.fresh-meal-wrap{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.meal-about{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:15px;
+    font-family:lato;
+}
+
+.meal-pic{
+    position: relative;
+    left:50px;
+    display: flex;
+    align-items: center;
+}
+
+.meal-pic img{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.food-info{
+    background: #F0F0F0;
+    padding:20px;
+}
+
+
+.company-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:400px;
+    color:rgb(230, 220, 220);
+}
+
+.company-details > div:hover{
+    box-shadow:1px 1px 8px 2px black;
+    transform:scale(1.1);
+}
+
+.company-details > div::first-letter{
+    font-size:30px;
+    color:rgb(0, 0, 0);
+}
+
+.about-company h1{
+    text-align: center;
+    padding-top:20px;
+    font-size:35px;
+}
+
+.about-company:after{
+    content:"";
+    width:300px;
+    height:2px;
+    display: block;
+    background: rgb(230, 66, 66);
+    margin: 0 auto;
+}
+
+.company-details > div{
+    font-size: 20px;
+    width:250px;
+    height:270px;
+    background: #BE5B49;
+    padding:30px;
+    box-shadow:2px 2px 8px 2px rgb(149, 144, 144);
+    transition: all 0.3s ease;
+}
+
+.hero{
+    background-image:url(images/food-table.jpg);
+    background-position:center;
+    background-size: cover;
+    mix-blend-mode: darken;
+    
+}
+
+.hero-head h1{
+    text-align: center;
+    font-size: 35px;
+    padding:10px;
+    color:rgb(0, 0, 0);
+    background:#F0F0F0;
+}
+
+.hero-head h1:after{
+    content:"";
+    width:300px;
+    height:2px;
+    display: block;
+    background: rgb(230, 66, 66);
+    margin: 0 auto;
+}
+
+.hero-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+
+}
+
+.hero-blog > div{
+    width:150px;
+    height:150px;
+    background:rgb(255, 255, 255);
+    margin:0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition:all 0.3s ease;
+    color:rgb(0, 0, 0);
+
+}
+
+.hero-blog > div:hover{
+    transform:scale(0.9);
+}
+
+.hero-blog > div:hover{
+    background: rgb(0, 0, 0);
+    color:#ffffff;
+    font-size:22px;
+    
+}
+
+.latest-news{
+    background: #F0F0F0;
+    padding-bottom:30px;
+}
+
+.news-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-details div{
+    width:400px;
+}
+
+.news-details > div img{
+    width:100%;
+    background: rgb(255, 255, 255);
+    transition: all 0.2s ease;
+    
+    
+}
+
+.news-details > div img:hover{
+    transform:scale(0.9);
+}
+
+.news-head h1{
+    text-align: center;
+    padding-top:20px;
+    font-size: 35px;
+}
+
+.news-head:after{
+    content:"";
+    width:350px;
+    height:2px;
+    display: block;
+    background: rgb(230, 66, 66);
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+
+.best-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.best-info > div{
+    width:500px;
+    padding:10px 40px;
+    font-size: 20px;
+    background: rgb(255, 251, 251);
+}
+
+.yellow-part{
+    height:400px;
+    background:#BE5B49;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.yellow-part .part2 h2,p{
+    margin-bottom:20px;
+}
+
+.yellow-part .part2 input{
+    width:280px;
+    min-width:auto;
+    padding:10px;
+}
+
+.footer{
+    height:250px;
+    background: #2D333F;
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+}
+
+.footer > div{
+    width:350px;
+    text-align: center;
+    padding:20px;
+}
+
+.footer > div h2:after{
+    content:"";
+    width:250px;
+    height:1px;
+    display: block;
+    background: tomato;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+
+.box2 > h3:hover{
+    color:tomato;
+    transition: 0.3s all ease;
+}
+
+.box3 > h3:hover{
+    color: tomato;
+    transition: 0.3s all ease;
+}
+
+.sub-foot{
+    background: #000;
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+
+
+@media screen and (max-width:992px){
+    .container{
+        width:900px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width:700px;
+    }
+    .hero-pic img{
+        width:300px;
+    }
+    .menu-bar .menu-item li{
+        padding:10px;
+        font-size:20px;
+    }
+
+    .button1{
+        width:100px;
+        height:40px;
+        padding:10px;
+        margin:10px auto;
+        left:300px;
+        position: relative;
+        font-size: 16px;
+        background: rgb(255, 255, 255);
+        border-radius: 20%;
+        border: 2px solid tomato;
+        transition: all 0.3s ease;
+    }
+
+    .button2{
+        width:100px;
+        height:40px;
+        padding:10px;
+        margin:10px auto;
+        left:300px;
+        position: relative;
+        font-size: 16px;
+        background: rgb(255, 255, 255);
+        border-radius: 20%;
+        border: 2px solid tomato;
+        transition: all 0.3s ease;
+    }
+
+
+    .show-food-1 img{
+        width:150px;
+        height:150px;
+        box-shadow:1px 1px 8px 3px rgb(149, 144, 144);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .show-food-2 img{
+        width:150px;
+        height:150px;
+        box-shadow:1px 1px 8px 3px rgb(149, 144, 144);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .header{
+        height:500px;
+        background-image: url(images/hero.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;  
+    }
+
+    .meal-pic img{
+        width:370px;
+        margin:0 auto;
+        text-align: center;
+    }
+
+    .meal-about{
+        font-size:16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding:10px;
+        font-family:lato;
+    }
+
+    .company-details > div{
+        font-size: 16px;
+        width:160px;
+        height:240px;
+        background: #BE5B49;
+        padding:10px;
+        box-shadow:2px 2px 8px 2px rgb(149, 144, 144);
+        transition: all 0.3s ease;
+    }
+
+    .hero-blog > div{
+        width:120px;
+        height:140px;
+        background:rgb(255, 255, 255);
+        margin:0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition:all 0.3s ease;
+        color:rgb(0, 0, 0);
+    
+    }
+
+    .hero-blog > div:hover{
+        background: rgb(0, 0, 0);
+        color:#ffffff;
+        font-size:20px;
+        
+    }
+
+    
+    .news-details div{
+        width:300px;
+    }
+
+    .news-details > div img{
+        width:100%;
+        background: rgb(255, 255, 255);
+        transition: all 0.2s ease;
+        
+        
+    }
+
+    .yellow-part .part2 input{
+        width:180px;
+        min-width:auto;
+        padding:10px;
+    }
+
+    .yellow-part img{
+        width:400px;
+    }
+
+    .footer > div h2:after{
+        content:"";
+        width:120px;
+        height:1px;
+        display: block;
+        background: tomato;
+        margin: 0 auto;
+        margin-bottom:20px;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .container{
+        width:auto;
+    }
+    .hero-pic img{
+        width:200px;
+    }
+    .menu-bar .menu-item li{
+        padding:10px;
+        font-size:16px;
+    }
+
+    .details h3{
+        font-size: 16px;
+        position: relative;
+        top:40px;
+        left:70px;
+    }
+
+    .hero-pic img{
+        width:200px;
+        position: relative;
+        left:-120px;
+    }
+
+    .button1{
+        width:100px;
+        height:40px;
+        padding:10px;
+        left:160px;
+        top:190px;
+        position: relative;
+        font-size: 14px;
+        background: rgb(255, 255, 255);
+        border-radius: 20%;
+        border: 2px solid tomato;
+        transition: all 0.3s ease;
+    }
+
+    .button2{
+        width:100px;
+        height:40px;
+        padding:10px;
+        left:170px;
+        top:10px;
+        position: relative;
+        font-size: 14px;
+        background: rgb(255, 255, 255);
+        border-radius: 20%;
+        border: 2px solid tomato;
+        transition: all 0.3s ease;
+    }
+
+    .show-food-1 img{
+        width:100px;
+        height:100px;
+        box-shadow:1px 1px 8px 3px rgb(149, 144, 144);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .show-food-2 img{
+        width:100px;
+        height:100px;
+        box-shadow:1px 1px 8px 3px rgb(149, 144, 144);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .header{
+        height:600px;
+        background-image: url(images/hero.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;  
+    }
+
+    .meal-pic img{
+        width:200px;
+        margin:0 auto;
+        position: relative;
+        bottom:40px;
+        left:-40px;
+        
+    }
+
+    .company-details > div{
+        margin-top:30px;
+        font-size: 16px;
+        width:120px;
+        height:350px;
+        background: #BE5B49;
+        padding:10px;
+        box-shadow:2px 2px 8px 2px rgb(149, 144, 144);
+        transition: all 0.3s ease;
+    }
+
+    .hero-blog > div{
+        width:90px;
+        height:150px;
+        background:rgb(255, 255, 255);
+        margin:0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition:all 0.3s ease;
+        color:rgb(0, 0, 0);
+        font-size: 12px;
+    
+    }
+
+    .hero-blog > div:hover{
+        background: rgb(0, 0, 0);
+        color:#ffffff;
+        font-size:12px ;
+    }
+
+    .news-details div{
+        width:180px;
+    }
+
+    .news-details > div img{
+        width:100%;
+        background: rgb(255, 255, 255);
+        transition: all 0.2s ease;
+        
+    }
+
+    .yellow-part{
+        height:250px;
+    }
+    .yellow-part .part2 input{
+        width:150px;
+        padding:10px;
+    }
+
+    .yellow-part img{
+        width:200px;
+    }
+
+    .yellow-part h2{
+        font-size: 18px;
+    }
+    .yellow-part p{
+        font-size: 12px;
+        padding:10px;
+    }
+
+    .footer > div h2:after{
+        content:"";
+        width:80px;
+        height:1px;
+        display: block;
+        background: tomato;
+        margin: 0 auto;
+        margin-bottom:20px;
+    }
+
+    .footer{
+        height:300px;
+    }
+
+    .footer >div h2{
+        font-size: 20px;
+    }
+
+    .header .logo h1{
+        font-family:Raleway-BlackItalic;
+        font-size:40px;
+        text-align: center;
+        padding:10px;
+        color:rgb(0, 0, 0);
+    }
+
+    .header .logo-details h4{
+        font-family: roboto;
+        margin-left:35px;
+        font-size: 14px;
+    }
+}
